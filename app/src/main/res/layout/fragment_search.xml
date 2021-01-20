@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    tools:context=".Fragments.SearchFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <EditText
+        android:id="@+id/search_users_et"
+        android:layout_width="match_parent"
+        android:backgroundTint="@color/colorPrimary"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        android:textColor="@color/black"
+        android:hint="Search User Here...."
+        android:textColorHint="@color/black"/>
+    
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/searchlist"
+        android:layout_below="@+id/search_users_et"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+    
+
+</RelativeLayout>
