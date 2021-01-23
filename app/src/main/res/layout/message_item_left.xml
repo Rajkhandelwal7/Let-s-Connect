@@ -17,6 +17,7 @@
         android:layout_height="wrap_content"
         android:layout_toRightOf="@id/profile_image"
         android:layout_marginLeft="6dp"
+
         android:textColor="@color/black"
         android:text="Testing Messages"
         android:textSize="18sp"
@@ -34,7 +35,7 @@
     <TextView
         android:id="@+id/text_seen"
         android:layout_width="wrap_content"
-        android:textColor="@color/white"
+        android:textColor="@color/colorPrimary"
         android:layout_height="wrap_content"
         android:visibility="gone"
 
